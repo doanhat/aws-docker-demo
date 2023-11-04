@@ -10,7 +10,6 @@ import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.catalyst.encoders.ExpressionEncoder
 import org.apache.spark.sql.functions.col
-import org.apache.spark.sql.types.{IntegerType, LongType, StringType}
 import org.apache.spark.sql.{DataFrame, Dataset, Encoder, Row, SparkSession}
 
 import java.util
